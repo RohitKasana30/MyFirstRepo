@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="271985" started-at="2020-09-15T06:46:05Z" finished-at="2020-09-15T06:50:37Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="271985" started-at="2020-09-15T06:46:05Z" finished-at="2020-09-15T06:50:37Z">
+      <class name="com.echalan.base.Runner">
+        <test-method status="PASS" signature="Browser()[pri:0, instance:com.echalan.base.Runner@148080bb]" name="Browser" is-config="true" duration-ms="21777" started-at="2020-09-15T12:16:05Z" finished-at="2020-09-15T12:16:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browser -->
+        <test-method status="PASS" signature="Loginn()[pri:0, instance:com.echalan.base.Runner@148080bb]" name="Loginn" duration-ms="12515" started-at="2020-09-15T12:16:27Z" finished-at="2020-09-15T12:16:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginn -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.echalan.base.Runner@148080bb]" name="getResult" is-config="true" duration-ms="6" started-at="2020-09-15T12:16:39Z" finished-at="2020-09-15T12:16:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Loginn status=SUCCESS method=Runner.Loginn()[pri:0, instance:com.echalan.base.Runner@148080bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Challan_history()[pri:0, instance:com.echalan.base.Runner@148080bb]" name="Challan_history" duration-ms="237057" started-at="2020-09-15T12:16:39Z" finished-at="2020-09-15T12:20:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Challan_history -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.echalan.base.Runner@148080bb]" name="getResult" is-config="true" duration-ms="0" started-at="2020-09-15T12:20:36Z" finished-at="2020-09-15T12:20:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Challan_history status=SUCCESS method=Runner.Challan_history()[pri:0, instance:com.echalan.base.Runner@148080bb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="last()[pri:0, instance:com.echalan.base.Runner@148080bb]" name="last" is-config="true" duration-ms="598" started-at="2020-09-15T12:20:36Z" finished-at="2020-09-15T12:20:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- last -->
+      </class> <!-- com.echalan.base.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
